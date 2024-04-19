@@ -49,6 +49,7 @@ public class Calculadora {
 		System.out.println("introduce otro numero: ");
 		n2 = teclado.nextInt();
 		resultado = n1 + n2;
+		System.out.println("el resultado es: " + resultado);
 		return resultado;
 		
 	}
@@ -64,6 +65,7 @@ public class Calculadora {
 		System.out.println("introduce otro numero: ");
 		n2 = teclado.nextInt();
 		resultado = n1 * n2;
+		System.out.println("el resultado es: " + resultado);
 		return resultado;
 	}
 

@@ -20,11 +20,19 @@ public class Calculadora {
 				System.out.println("saliendo");
 				break;
 			case 1:
-
+				suma();
 				break;
 			case 2:
-
+				resta();
 				break;
+			case 3:
+				multiplicacion();
+				break;
+
+			case 4:
+				division();
+				break;
+
 
 			default:
 				input = 0;
@@ -42,7 +50,7 @@ public class Calculadora {
 
 	}
 
-	private void multiplicacion() {
+	private static void multiplicacion() {
 
 	}
 

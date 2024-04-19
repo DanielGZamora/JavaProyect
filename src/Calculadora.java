@@ -42,19 +42,32 @@ public class Calculadora {
 		}
 	}
 
-	private static void suma() {
+	private static int suma() {
+		int n1=0, n2=0, resultado;
+		System.out.println("introduce un numero: ");
+		n1 = teclado.nextInt();
+		System.out.println("introduce otro numero: ");
+		n2 = teclado.nextInt();
+		resultado = n1 + n2;
+		return resultado;
+		
+	}
+
+	private static int resta() {
 
 	}
 
-	private static void resta() {
-
+	private static int multiplicacion() {
+		int n1=0, n2=0, resultado;
+		System.out.println("introduce un numero: ");
+		n1 = teclado.nextInt();
+		System.out.println("introduce otro numero: ");
+		n2 = teclado.nextInt();
+		resultado = n1 * n2;
+		return resultado;
 	}
 
-	private static void multiplicacion() {
-
-	}
-
-	private static void division() {
+	private static int division() {
 
 	}
 }
